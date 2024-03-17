@@ -359,12 +359,8 @@ def GaussSeidelMethod(matrix, vector, epsilon, previous, counter):
     GaussSeidelMethod(matrix, vector, epsilon,NextGuess,counter+1)
 
 
-matrixA = [[25,2,1], [2,10,1], [1, 2, 1]]
-
-b = [69, 63, 43]
-
-#matrixA = [[4, 0, 2], [0, 4, 8], [3, 12, 3]]
-#b = [2,4,6]
+matrixA = [[4, 0, 2], [3, 12, 3], [0, 4, 8]]
+b = [2,6,4]
 epsilon=0.001
 arg=(matrixA,b,epsilon,InitVector(len(b)),1)
 
