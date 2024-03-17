@@ -1,1 +1,1 @@
-# analysis_hw2
+# analysis hw2: Jacobi Method and GaussSeidel Method
